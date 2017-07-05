@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3B5C5C481F0CD5640052F23D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C5C471F0CD5640052F23D /* AppDelegate.swift */; };
 		3B5C5C4A1F0CD5640052F23D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C5C491F0CD5640052F23D /* ViewController.swift */; };
-		3B5C5C4D1F0CD5640052F23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C5C4B1F0CD5640052F23D /* Main.storyboard */; };
 		3B5C5C4F1F0CD5640052F23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C5C4E1F0CD5640052F23D /* Assets.xcassets */; };
 		3B5C5C521F0CD5640052F23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C5C501F0CD5640052F23D /* LaunchScreen.storyboard */; };
 		3B5C5C5D1F0CD5640052F23D /* Bai1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C5C5C1F0CD5640052F23D /* Bai1Tests.swift */; };
 		3B5C5C681F0CD5640052F23D /* Bai1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5C5C671F0CD5640052F23D /* Bai1UITests.swift */; };
+		3B5C5C771F0CD56D0052F23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5C5C761F0CD56D0052F23D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		3B5C5C441F0CD5640052F23D /* Bai1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bai1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5C5C471F0CD5640052F23D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B5C5C491F0CD5640052F23D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B5C5C4C1F0CD5640052F23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B5C5C4E1F0CD5640052F23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B5C5C511F0CD5640052F23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B5C5C531F0CD5640052F23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3B5C5C631F0CD5640052F23D /* Bai1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bai1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5C5C671F0CD5640052F23D /* Bai1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bai1UITests.swift; sourceTree = "<group>"; };
 		3B5C5C691F0CD5640052F23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B5C5C751F0CD56D0052F23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			children = (
 				3B5C5C471F0CD5640052F23D /* AppDelegate.swift */,
 				3B5C5C491F0CD5640052F23D /* ViewController.swift */,
-				3B5C5C4B1F0CD5640052F23D /* Main.storyboard */,
+				3B5C5C761F0CD56D0052F23D /* Main.storyboard */,
 				3B5C5C4E1F0CD5640052F23D /* Assets.xcassets */,
 				3B5C5C501F0CD5640052F23D /* LaunchScreen.storyboard */,
 				3B5C5C531F0CD5640052F23D /* Info.plist */,
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5C5C771F0CD56D0052F23D /* Main.storyboard in Resources */,
 				3B5C5C521F0CD5640052F23D /* LaunchScreen.storyboard in Resources */,
 				3B5C5C4F1F0CD5640052F23D /* Assets.xcassets in Resources */,
-				3B5C5C4D1F0CD5640052F23D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +296,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B5C5C4B1F0CD5640052F23D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B5C5C4C1F0CD5640052F23D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B5C5C501F0CD5640052F23D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B5C5C511F0CD5640052F23D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B5C5C761F0CD56D0052F23D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5C5C751F0CD56D0052F23D /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../../../Documents/ThucHanh/ThucHanh;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
